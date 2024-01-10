@@ -123,24 +123,24 @@
   }
   
   .hdg-5 {
-    @apply font-roboto text-2xl uppercase font-medium my-4;
+    @apply font-roboto text-2xl uppercase font-semibold my-4;
   }
   
   .hdg-6 {
-    @apply font-roboto text-xl uppercase my-4;
+    @apply font-roboto text-xl font-semibold my-4;
   }
   
   
   .type-base {
-    @apply font-roboto text-base;
+    @apply font-roboto text-base my-4;
   }
   
   .type-large {
-    @apply font-roboto text-lg;
+    @apply font-roboto text-lg my-4;
   }
   
   .type-small {
-    @apply font-roboto text-sm;
+    @apply font-roboto text-sm my-4;
   }
   
   
