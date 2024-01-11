@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.base {
-    @apply font-roboto bg-black;
+#app {
+	/* background: red; */
 }

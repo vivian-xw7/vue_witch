@@ -10,5 +10,5 @@
 
 <style scoped>
 @import "./styles/typography.css";
-@import "./input.css";
+@import "./assets/main.css";
 </style>

@@ -1,7 +1,7 @@
 <template>
   <div class="home bg-witch-green">
     <div class="container">
-      <h1 class="hdg-1">Vivian Hayes</h1>
+      <h1 class="hdg-1 text-red-700">Vivian Hayes</h1>
 
       <p class="hdg-1">heading 1</p>
       <p class="hdg-2">heading 2</p>
