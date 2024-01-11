@@ -3,6 +3,5 @@
 @tailwind utilities;
 
 #app {
-	/* background: red; */
-	/* background-color: theme(colors.witch.night) ; */
+	@apply bg-witch-night;
 }

@@ -1,12 +1,19 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/projects">Projects</router-link>
-    <router-link to="/contact">Contact</router-link>
-  </nav>
+  <AppHeader />
 
   <router-view />
 </template>
+
+<script>
+import AppHeader from "./components/AppHeader.vue";
+
+export default {
+  name: "App",
+  components: {
+    AppHeader,
+  },
+};
+</script>
 
 <style scoped>
 @import "./styles/typography.css";

@@ -1,14 +1,14 @@
 <template>
   <div class="home">
-    <div class="container bg-witch-db">
+    <div class="container">
       <h1 class="hdg-1 text-witch-night">Vivian Hayes</h1>
       <h1 class="hdg-1 text-witch-bat">Vivian Hayes</h1>
       <h1 class="hdg-1 text-witch-dusk">Vivian Hayes</h1>
       <h1 class="hdg-1 text-witch-dawn">Vivian Hayes</h1>
       <h1 class="hdg-1 text-black">Vivian Hayes</h1>
 
-      <h1 class="hdg-1 text-witch-g">Vivian Hayes</h1>
-      <h1 class="hdg-1 text-witch-pk">Vivian Hayes</h1>
+      <h1 class="hdg-1 text-witch-green">Vivian Hayes</h1>
+      <!-- <h1 class="hdg-1 text-witch-pk">Vivian Hayes</h1> -->
       <h1 class="hdg-1 text-witch-pur">Vivian Hayes</h1>
       <h1 class="hdg-1 text-witch-b">Vivian Hayes</h1>
       <h1 class="hdg-1 text-witch-db">Vivian Hayes</h1>
