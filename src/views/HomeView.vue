@@ -1,6 +1,6 @@
 <template>
-  <div class="home">
-    <div class="container bg-black text-white">
+  <div class="home bg-witch-green">
+    <div class="container">
       <h1 class="hdg-1">Vivian Hayes</h1>
 
       <p class="hdg-1">heading 1</p>
@@ -29,6 +29,4 @@
 // };
 </script>
 
-<style scoped>
-@import "../styles/typography.css";
-</style>
+<style scoped></style>
