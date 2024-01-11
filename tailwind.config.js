@@ -1,28 +1,25 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./src/**/*.vue",
-  ],
   theme: {
     extend: {
       fontFamily: {
         roboto: ["Roboto Mono", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
       },
-      color: {
+      colors: {
         white: "#ffffff",
         black: "#03001C",
         witch: {
-          // 'night': '#202040',
-          // 'bat': '#202060',
-          // 'dusk': '#602080',
-          // 'dawn': '#B030B0',
-          // 'moon': '#E6E641',
-          green: "#82FBA5",
-          purple: "#B14283",
-          a: "#9D57E0",
+          night: '#202040',
+          bat: '#202060',
+          dusk: '#602080',
+          dawn: '#B030B0',
+          moon: '#E6E641',
+          g: "#82FBA5",
+          pk: "#B14283",
+          pur: "#9D57E0",
           b: "#4F5FF5",
-          c: "#211D46",
+          db: "#211D46",
           d: "#131128",
         },
       },
@@ -74,5 +71,17 @@ module.exports = {
     },
   },
   plugins: [],
+  purge: {
+    content: [
+      "./src/**/*.vue",
+    ],
+    safelist: [
+      'bg-witch-night', 'text-witch-night', // Add your custom color classes here
+      'bg-witch-bat', 'text-witch-bat',
+      'bg-witch-dusk', 'text-witch-dusk',
+      'bg-witch-dawn', 'text-witch-dawn',
+      'bg-witch-moon', 'text-witch-moon',
+    ],
+  },
 };
 
