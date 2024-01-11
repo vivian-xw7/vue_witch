@@ -1,8 +1,14 @@
 <template>
   <nav class="navbar">
-    <router-link to="/" class="hdg-5">// Home</router-link>
-    <router-link to="/projects" class="hdg-5">// Projects</router-link>
-    <router-link to="/contact" class="hdg-5">// Contact</router-link>
+    <div class="flex justify-center gap-x-12">
+      <router-link to="/" class="hdg-6 text-witch-green">// home</router-link>
+      <router-link to="/projects" class="hdg-6 text-witch-green"
+        >// projects</router-link
+      >
+      <router-link to="/contact" class="hdg-6 text-witch-green"
+        >// contact</router-link
+      >
+    </div>
   </nav>
 </template>
 
