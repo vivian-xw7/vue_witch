@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar">
-    <div class="flex justify-center gap-x-12">
+    <div class="flex justify-center items-center h-full gap-x-12">
       <router-link to="/" class="hdg-6 text-witch-green">// home</router-link>
       <router-link to="/projects" class="hdg-6 text-witch-green"
         >// projects</router-link

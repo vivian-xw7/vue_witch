@@ -14,16 +14,16 @@
       <h1 class="hdg-1 text-witch-db">Vivian Hayes</h1>
       <h1 class="hdg-1 text-witch-d">Vivian Hayes</h1>
 
-      <p class="hdg-1">heading 1</p>
-      <p class="hdg-2">heading 2</p>
-      <p class="hdg-3">heading 3</p>
-      <p class="hdg-4">heading 4</p>
-      <p class="hdg-5">heading 5</p>
-      <p class="hdg-6">heading 6</p>
+      <p class="hdg-1 text-witch-green">heading 1</p>
+      <p class="hdg-2 text-witch-green">heading 2</p>
+      <p class="hdg-3 text-witch-green">heading 3</p>
+      <p class="hdg-4 text-witch-green">heading 4</p>
+      <p class="hdg-5 text-witch-green">heading 5</p>
+      <p class="hdg-6 text-witch-green">heading 6</p>
 
-      <p class="type-large">large</p>
-      <p class="type-base">base</p>
-      <p class="type-small">small</p>
+      <p class="type-large text-witch-green">large</p>
+      <p class="type-base text-witch-green">base</p>
+      <p class="type-small text-witch-green">small</p>
     </div>
   </div>
 </template>
