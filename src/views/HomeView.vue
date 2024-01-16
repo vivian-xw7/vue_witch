@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <div class="container p-20">
+    <div class="container mx-auto p-20">
       <div class="text-wrapper">
         <component
           :is="heroBannerTag"
@@ -9,7 +9,7 @@
             pageContent.acf.hero_banner_heading &&
             pageContent.acf.hero_banner_heading.text
           "
-          class="hdg-1 text-witch-space"
+          class="hdg-1 text-witch-space text-center"
         >
           {{ heroBannerText }}
         </component>

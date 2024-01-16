@@ -3,12 +3,14 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
+        yarapi: ["Yapari", "sans-serif"],
         roboto: ["Roboto Mono", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
       },
       colors: {
         white: "#ffffff",
         black: "#03001C",
+        green: "#00deb9",
         witch: {
           night: "#202040",
           dusk: "#602080",

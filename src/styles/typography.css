@@ -1,147 +1,310 @@
 @font-face {
-    font-family: 'Poppins';
-    src: url('../../assets/fonts/Poppins-Regular.woff2') format('woff2'),
-        url('../../assets/fonts/Poppins-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-  }
-  
-  @font-face {
-    font-family: 'Poppins';
-    src: url('../../assets/fonts/Poppins-Italic.woff2') format('woff2'),
-        url('../../assets/fonts/Poppins-Italic.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
-  }
-  
-  @font-face {
-    font-family: 'Poppins';
-    src: url('../../assets/fonts/Poppins-Bold.woff2') format('woff2'),
-        url('../../assets/fonts/Poppins-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-  }
-  
-  @font-face {
-    font-family: 'Poppins';
-    src: url('../../assets/fonts/Poppins-BoldItalic.woff2') format('woff2'),
-        url('../../assets/fonts/Poppins-BoldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-  }
-  
-  @font-face {
-    font-family: 'Roboto Mono';
-    src: url('../../assets/fonts/RobotoMono-Regular.woff2') format('woff2'),
-        url('../../assets/fonts/RobotoMono-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-  }
-  
-  @font-face {
-    font-family: 'Roboto Mono';
-    src: url('../../assets/fonts/RobotoMono-Italic.woff2') format('woff2'),
-        url('../../assets/fonts/RobotoMono-Italic.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
-  }
-  
-  @font-face {
-    font-family: 'Roboto Mono';
-    src: url('../../assets/fonts/RobotoMono-Medium.woff2') format('woff2'),
-        url('../../assets/fonts/RobotoMono-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-  }
-  
-  @font-face {
-    font-family: 'Roboto Mono';
-    src: url('../../assets/fonts/RobotoMono-MediumItalic.woff2') format('woff2'),
-        url('../../assets/fonts/RobotoMono-MediumItalic.woff') format('woff');
-    font-weight: 500;
-    font-style: italic;
-    font-display: swap;
-  }
-  
-  @font-face {
-    font-family: 'Roboto Mono';
-    src: url('../../assets/fonts/RobotoMono-SemiBold.woff2') format('woff2'),
-        url('../../assets/fonts/RobotoMono-SemiBold.woff') format('woff');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-  }
-  
-  @font-face {
-    font-family: 'Roboto Mono';
-    src: url('../../assets/fonts/RobotoMono-SemiBoldItalic.woff2') format('woff2'),
-        url('../../assets/fonts/RobotoMono-SemiBoldItalic.woff') format('woff');
-    font-weight: 600;
-    font-style: italic;
-    font-display: swap;
-  }
-  
-  @font-face {
-    font-family: 'Roboto Mono';
-    src: url('../../assets/fonts/RobotoMono-BoldItalic.woff2') format('woff2'),
-        url('../../assets/fonts/RobotoMono-BoldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-  }
-  
-  @font-face {
-    font-family: 'Roboto Mono';
-    src: url('../../assets/fonts/RobotoMono-Bold.woff2') format('woff2'),
-        url('../../assets/fonts/RobotoMono-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-  }
-  
-  .hdg-1 {
-    @apply font-poppins text-8xl font-semibold my-0;
-  }
-  
-  .hdg-2 {
-    @apply font-poppins text-5xl font-semibold my-0;
-  }
-  
-  .hdg-3 {
-    @apply font-poppins text-4xl font-semibold my-2;
-  }
-  
-  .hdg-4 {
-    @apply font-poppins text-3xl font-semibold my-4;
-  }
-  
-  .hdg-5 {
-    @apply font-roboto text-2xl uppercase font-semibold my-4;
-  }
-  
-  .hdg-6 {
-    @apply font-roboto text-xl font-semibold my-4;
-  }
-  
-  
-  .type-base {
-    @apply font-roboto text-base my-4;
-  }
-  
-  .type-large {
-    @apply font-roboto text-lg my-4;
-  }
-  
-  .type-small {
-    @apply font-roboto text-sm my-4;
-  }
+  font-family: 'Yapari';
+  src: url('../../assets/fonts/YapariTrial-SemiBold.woff2') format('woff2'),
+      url('../../assets/fonts/YapariTrial-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Yapari';
+  src: url('../../assets/fonts/YapariTrial-Regular.woff2') format('woff2'),
+      url('../../assets/fonts/YapariTrial-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Yapari';
+  src: url('../../assets/fonts/YapariTrial-MediumExpanded.woff2') format('woff2'),
+      url('../../assets/fonts/YapariTrial-MediumExpanded.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Yapari';
+  src: url('../../assets/fonts/YapariTrial-MediumExtended.woff2') format('woff2'),
+      url('../../assets/fonts/YapariTrial-MediumExtended.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Yapari';
+  src: url('../../assets/fonts/YapariTrial-Medium.woff2') format('woff2'),
+      url('../../assets/fonts/YapariTrial-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Yapari';
+  src: url('../../assets/fonts/YapariTrial-SemiBoldExpanded.woff2') format('woff2'),
+      url('../../assets/fonts/YapariTrial-SemiBoldExpanded.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Yapari';
+  src: url('../../assets/fonts/YapariTrial-SemiBold.woff2') format('woff2'),
+      url('../../assets/fonts/YapariTrial-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Yapari';
+  src: url('../../assets/fonts/YapariTrial-SemiBoldExtended.woff2') format('woff2'),
+      url('../../assets/fonts/YapariTrial-SemiBoldExtended.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Yapari';
+  src: url('../../assets/fonts/YapariTrial-ExtraBold.woff2') format('woff2'),
+      url('../../assets/fonts/YapariTrial-ExtraBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Yapari';
+  src: url('../../assets/fonts/YapariTrial-ExtraBoldExtended.woff2') format('woff2'),
+      url('../../assets/fonts/YapariTrial-ExtraBoldExtended.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Yapari';
+  src: url('../../assets/fonts/YapariTrial-ExtraBoldExpanded.woff2') format('woff2'),
+      url('../../assets/fonts/YapariTrial-ExtraBoldExpanded.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Yapari';
+  src: url('../../assets/fonts/YapariTrial-BoldWide.woff2') format('woff2'),
+      url('../../assets/fonts/YapariTrial-BoldWide.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Yapari';
+  src: url('../../assets/fonts/YapariTrial-Bold.woff2') format('woff2'),
+      url('../../assets/fonts/YapariTrial-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Yapari';
+  src: url('../../assets/fonts/YapariTrial-BoldExpanded.woff2') format('woff2'),
+      url('../../assets/fonts/YapariTrial-BoldExpanded.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Yapari';
+  src: url('../../assets/fonts/YapariTrial-BoldExtended.woff2') format('woff2'),
+      url('../../assets/fonts/YapariTrial-BoldExtended.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Yapari';
+  src: url('../../assets/fonts/YapariTrial-ThinExpanded.woff2') format('woff2'),
+      url('../../assets/fonts/YapariTrial-ThinExpanded.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Yapari';
+  src: url('../../assets/fonts/YapariTrial-ThinWide.woff2') format('woff2'),
+      url('../../assets/fonts/YapariTrial-ThinWide.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Yapari';
+  src: url('../../assets/fonts/YapariTrial-Thin.woff2') format('woff2'),
+      url('../../assets/fonts/YapariTrial-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../../assets/fonts/Poppins-Regular.woff2') format('woff2'),
+      url('../../assets/fonts/Poppins-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../../assets/fonts/Poppins-Italic.woff2') format('woff2'),
+      url('../../assets/fonts/Poppins-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../../assets/fonts/Poppins-Bold.woff2') format('woff2'),
+      url('../../assets/fonts/Poppins-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../../assets/fonts/Poppins-BoldItalic.woff2') format('woff2'),
+      url('../../assets/fonts/Poppins-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  src: url('../../assets/fonts/RobotoMono-Regular.woff2') format('woff2'),
+      url('../../assets/fonts/RobotoMono-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  src: url('../../assets/fonts/RobotoMono-Italic.woff2') format('woff2'),
+      url('../../assets/fonts/RobotoMono-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  src: url('../../assets/fonts/RobotoMono-Medium.woff2') format('woff2'),
+      url('../../assets/fonts/RobotoMono-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  src: url('../../assets/fonts/RobotoMono-MediumItalic.woff2') format('woff2'),
+      url('../../assets/fonts/RobotoMono-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  src: url('../../assets/fonts/RobotoMono-SemiBold.woff2') format('woff2'),
+      url('../../assets/fonts/RobotoMono-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  src: url('../../assets/fonts/RobotoMono-SemiBoldItalic.woff2') format('woff2'),
+      url('../../assets/fonts/RobotoMono-SemiBoldItalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  src: url('../../assets/fonts/RobotoMono-BoldItalic.woff2') format('woff2'),
+      url('../../assets/fonts/RobotoMono-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  src: url('../../assets/fonts/RobotoMono-Bold.woff2') format('woff2'),
+      url('../../assets/fonts/RobotoMono-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+.hdg-1 {
+  @apply font-poppins text-8xl font-semibold my-0;
+}
+
+.hdg-2 {
+  @apply font-poppins text-5xl font-semibold my-0;
+}
+
+.hdg-3 {
+  @apply font-poppins text-4xl font-semibold my-2;
+}
+
+.hdg-4 {
+  @apply font-poppins text-3xl font-semibold my-4;
+}
+
+.hdg-5 {
+  @apply font-roboto text-2xl uppercase font-semibold my-4;
+}
+
+.hdg-6 {
+  @apply font-roboto text-xl font-semibold my-4;
+}
+
+
+.type-base {
+  @apply font-roboto text-base my-4;
+}
+
+.type-large {
+  @apply font-roboto text-lg my-4;
+}
+
+.type-small {
+  @apply font-roboto text-sm my-4;
+}
   
   
   

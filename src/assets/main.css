@@ -10,16 +10,19 @@
 	/* color: #61B390; */
 	/* color: #fff; */
 	/* color: #A0C1B8; */
-	color: #E2DCC8;
+	/* color: #E2DCC8; */
 	/* background-color: #222831; */
 	/* background-color: #232931; */
 	/* background-color: #261C2C; */
-	background-color: #393E46;
+	/* background-color: #393E46; */
 
 	/* color: #B6EADA; */
 	/* background-color: #03001C; */
 
-	.text-wrapper {
+	/* .text-wrapper {
 		background-color: #6D9886;
-	}
+	} */
+
+	background-color: #000;
+	color: theme(colors.green);
 }
