@@ -13,6 +13,8 @@
         >
           {{ heroBannerText }}
         </component>
+
+        <button class="btn-primary">My GitHub</button>
       </div>
     </div>
   </div>

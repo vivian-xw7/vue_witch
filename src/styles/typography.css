@@ -305,6 +305,12 @@
 .type-small {
   @apply font-roboto text-sm my-4;
 }
+
+a:not(.router-link) {
+  &:hover {
+    @apply underline;
+  }
+}
   
   
   

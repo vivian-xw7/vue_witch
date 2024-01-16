@@ -2,8 +2,9 @@
 	height: 85px;
 
 	.top-bar {
-		@apply relative rounded-full;
+		@apply relative rounded-full border border-grey/25;
 		backdrop-filter: blur(10px);
+		box-shadow: rgba(255, 255, 255, 0.05) 0px 0px 8px 0px inset;
 
 		&::after {
 			content: '';
@@ -12,6 +13,7 @@
 			
 		}
 	}
+
 	.router-link {
 		transition: 0.4s;
 
@@ -20,6 +22,7 @@
 		}
 
 		&:hover {
+			@apply text-white;
 			.comment-span {
 				opacity: 0;
 			}

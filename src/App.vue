@@ -17,5 +17,6 @@ export default {
 
 <style scoped>
 @import "./styles/typography.css";
+@import "./styles/btn.css";
 @import "./assets/main.css";
 </style>

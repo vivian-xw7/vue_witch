@@ -1,0 +1,6 @@
+
+.btn-primary {
+    @apply inline-flex items-center relative py-3 px-6 rounded-full bg-green text-black font-yarapi font-medium;
+}
+
+.btn-secondary {}
