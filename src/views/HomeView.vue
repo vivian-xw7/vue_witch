@@ -2,7 +2,8 @@
   <div class="home">
     <div class="container p-20">
       <div class="text-wrapper">
-        <h1
+        <component
+          :is="heroBannerTag"
           v-if="
             pageContent.acf &&
             pageContent.acf.hero_banner_heading &&
@@ -10,8 +11,8 @@
           "
           class="hdg-1 text-witch-space"
         >
-          {{ pageContent.acf.hero_banner_heading.text }}
-        </h1>
+          {{ heroBannerText }}
+        </component>
       </div>
     </div>
   </div>
@@ -25,6 +26,14 @@ export default {
     return {
       pageContent: {},
     };
+  },
+  computed: {
+    heroBannerTag() {
+      return this.pageContent.acf?.hero_banner_heading?.tag || "p";
+    },
+    heroBannerText() {
+      return this.pageContent.acf?.hero_banner_heading?.text || "";
+    },
   },
   mounted() {
     // Replace '11' with the ID of your home page or adjust as needed
