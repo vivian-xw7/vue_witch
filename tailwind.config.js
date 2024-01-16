@@ -11,6 +11,8 @@ module.exports = {
         white: "#ffffff",
         black: "#03001C",
         green: "#00deb9",
+        grey: "#bec0c0",
+        charcoal: "#080808",
         witch: {
           night: "#202040",
           dusk: "#602080",

@@ -25,4 +25,8 @@
 
 	background-color: #000;
 	color: theme(colors.green);
+
+	.container {
+		@apply mx-auto;
+	}
 }

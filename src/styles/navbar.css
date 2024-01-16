@@ -1,5 +1,17 @@
 .navbar {
 	height: 85px;
+
+	.top-bar {
+		@apply relative rounded-full;
+		backdrop-filter: blur(10px);
+
+		&::after {
+			content: '';
+			@apply absolute w-full h-full top-0 left-0 bg-grey rounded-full;
+			opacity: 0.1;
+			
+		}
+	}
 	.router-link {
 		transition: 0.4s;
 
