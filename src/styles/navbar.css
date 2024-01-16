@@ -1,3 +1,16 @@
 .navbar {
 	height: 85px;
+	.router-link {
+		transition: 0.4s;
+
+		.comment-span {
+			transition: 0.4s;
+		}
+
+		&:hover {
+			.comment-span {
+				opacity: 0;
+			}
+		}
+	}
 }

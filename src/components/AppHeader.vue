@@ -1,13 +1,18 @@
 <template>
   <nav class="navbar">
     <div class="flex justify-center items-center h-full gap-x-12">
-      <router-link to="/" class="hdg-6 text-witch-green">// home</router-link>
-      <router-link to="/projects" class="hdg-6 text-witch-green"
-        >// projects</router-link
-      >
-      <router-link to="/contact" class="hdg-6 text-witch-green"
-        >// contact</router-link
-      >
+      <router-link to="/" class="hdg-6 router-link">
+        <span class="comment-span">// </span>
+        <span class="text-span">home</span>
+      </router-link>
+      <router-link to="/projects" class="hdg-6 router-link">
+        <span class="comment-span">// </span>
+        <span class="text-span">projects</span>
+      </router-link>
+      <router-link to="/contact" class="hdg-6 router-link">
+        <span class="comment-span">// </span>
+        <span class="text-span">contact</span>
+      </router-link>
     </div>
   </nav>
 </template>
