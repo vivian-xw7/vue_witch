@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        yarapi: ["Yapari", "sans-serif"],
+        "bai-jamjuree": ["'Bai Jamjuree'", "san-serif"],
         roboto: ["Roboto Mono", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
       },

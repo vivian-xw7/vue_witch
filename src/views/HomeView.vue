@@ -14,7 +14,11 @@
           {{ heroBannerText }}
         </component>
 
-        <button class="btn-primary">My GitHub</button>
+        <a href="#" class="btn-primary">My GitHub</a>
+
+        <p class="type-large">type large</p>
+        <p class="type-base">type base</p>
+        <p class="type-small">type small</p>
       </div>
     </div>
   </div>

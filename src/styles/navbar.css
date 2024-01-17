@@ -1,4 +1,6 @@
 .navbar {
+	position: sticky;
+	z-index: 999;
 	height: 85px;
 
 	.top-bar {
