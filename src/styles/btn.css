@@ -1,6 +1,26 @@
 
 .btn-primary {
-    @apply inline-flex items-center relative py-2 px-4 rounded-full bg-green text-black font-bai-jamjuree font-medium;
+    @apply inline-flex items-center relative py-2 px-4 rounded-full bg-green text-black font-bai-jamjuree font-bold ;
+    transition: 0.4s;
+
+    span {
+        @apply relative z-10;
+    }
+
+    &::after {
+        content: '';
+        @apply absolute w-full h-full top-0 left-0 bg-black rounded-full border border-green/50;
+        transition: 0.4s;
+        opacity: 0;
+    }
+
+    &:hover {
+        @apply text-green;
+
+        &::after {
+            opacity: 1;
+        }
+    }
 }
 
 .btn-secondary {}

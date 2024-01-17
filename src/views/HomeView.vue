@@ -14,7 +14,9 @@
           {{ heroBannerText }}
         </component>
 
-        <a href="#" class="btn-primary">My GitHub</a>
+        <a href="#" class="btn-primary">
+          <span>My GitHub</span>
+        </a>
 
         <p class="type-large">type large</p>
         <p class="type-base">type base</p>

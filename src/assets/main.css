@@ -23,7 +23,10 @@
 		background-color: #6D9886;
 	} */
 
-	background-color: #000;
+	background: radial-gradient(at 200% bottom, theme(colors.violet.600), #000);
+	/* background: radial-gradient(at 150% bottom, #eea22a, #000); */
+	/* background-color: theme(colors.alt-black); */
+	/* background-color: #000; */
 	color: theme(colors.green);
 
 	.container {
