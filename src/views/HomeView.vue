@@ -1,26 +1,39 @@
 <template>
   <div class="home">
     <div class="container p-20">
-      <div class="text-wrapper">
-        <component
-          :is="heroBannerTag"
-          v-if="
-            pageContent.acf &&
-            pageContent.acf.hero_banner_heading &&
-            pageContent.acf.hero_banner_heading.text
-          "
-          class="hdg-1 text-white text-center"
-        >
-          {{ heroBannerText }}
-        </component>
+      <div class="row">
+        <div class="col w-full lg:w-1/2 flex flex-col justify-center">
+          <div class="text-wrapper">
+            <component
+              :is="headingTag"
+              v-if="
+                pageContent.acf &&
+                pageContent.acf.hero_banner_heading &&
+                pageContent.acf.hero_banner_heading.text
+              "
+              class="hdg-5 text-white"
+            >
+              {{ headingText }}
+            </component>
 
-        <a href="#" class="btn-primary">
-          <span>My GitHub</span>
-        </a>
-
-        <p class="type-large">type large</p>
-        <p class="type-base">type base</p>
-        <p class="type-small">type small</p>
+            <componant
+              :is="subheadingTag"
+              v-if="
+                pageContent.acf &&
+                pageContent.acf.hero_banner_subheading &&
+                pageContent.acf.hero_banner_subheading.text
+              "
+              class="hdg-1 text-white"
+            >
+              {{ subheadingText }}
+            </componant>
+          </div>
+        </div>
+        <div class="col w-full lg:w-1/2 flex flex-col justify-center">
+          <div class="relative">
+            <img :src="imageUrl" />
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -36,11 +49,20 @@ export default {
     };
   },
   computed: {
-    heroBannerTag() {
+    headingTag() {
       return this.pageContent.acf?.hero_banner_heading?.tag || "p";
     },
-    heroBannerText() {
+    headingText() {
       return this.pageContent.acf?.hero_banner_heading?.text || "";
+    },
+    subheadingTag() {
+      return this.pageContent.acf?.hero_banner_subheading?.tag || "p";
+    },
+    subheadingText() {
+      return this.pageContent.acf?.hero_banner_subheading?.text || "";
+    },
+    imageUrl() {
+      return this.pageContent.acf?.hero_banner_image || "";
     },
   },
   mounted() {
