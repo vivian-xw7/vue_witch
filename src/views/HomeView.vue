@@ -65,6 +65,11 @@ export default {
       return this.pageContent.acf?.hero_banner_image || "";
     },
   },
+  methods: {
+    function() {
+      console.log(this.imageUrl);
+    },
+  },
   mounted() {
     // Replace '11' with the ID of your home page or adjust as needed
     axios
