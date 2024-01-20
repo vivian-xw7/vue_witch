@@ -75,17 +75,6 @@ module.exports = {
   plugins: [],
   purge: {
     content: ["./src/**/*.vue"],
-    safelist: [
-      "bg-witch-night",
-      "text-witch-night", // Add your custom color classes here
-      "bg-witch-bat",
-      "text-witch-bat",
-      "bg-witch-dusk",
-      "text-witch-dusk",
-      "bg-witch-dawn",
-      "text-witch-dawn",
-      "bg-witch-moon",
-      "text-witch-moon",
-    ],
+    safelist: [],
   },
 };

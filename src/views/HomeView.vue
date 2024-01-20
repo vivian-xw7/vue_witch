@@ -2,7 +2,9 @@
   <div class="home">
     <div class="container p-20">
       <div class="row">
-        <div class="col w-full lg:w-1/2 flex flex-col justify-center">
+        <div
+          class="col w-full lg:w-1/2 flex flex-col justify-center mb-10 lg:mb-0"
+        >
           <div class="text-wrapper">
             <component
               :is="headingTag"
@@ -11,7 +13,7 @@
                 pageContent.acf.hero_banner_heading &&
                 pageContent.acf.hero_banner_heading.text
               "
-              class="hdg-5 text-white"
+              class="hdg-5 mb-8"
             >
               {{ headingText }}
             </component>
@@ -23,7 +25,7 @@
                 pageContent.acf.hero_banner_subheading &&
                 pageContent.acf.hero_banner_subheading.text
               "
-              class="hdg-1 text-white"
+              class="hdg-1"
             >
               {{ subheadingText }}
             </componant>

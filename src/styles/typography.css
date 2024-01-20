@@ -180,27 +180,27 @@
 }
 
 .hdg-1 {
-  @apply font-poppins text-7xl font-semibold my-0;
+  @apply font-poppins text-5xl lg:text-7xl font-semibold my-0 leading-tight;
 }
 
 .hdg-2 {
-  @apply font-poppins text-5xl font-semibold my-0;
+  @apply font-poppins text-4xl lg:text-5xl font-semibold my-0;
 }
 
 .hdg-3 {
-  @apply font-poppins text-4xl font-semibold my-2;
+  @apply font-poppins text-3xl lg:text-4xl font-semibold my-2;
 }
 
 .hdg-4 {
-  @apply font-poppins text-3xl font-semibold my-4;
+  @apply font-poppins text-2xl lg:text-3xl font-semibold my-4;
 }
 
 .hdg-5 {
-  @apply font-bai-jamjuree text-2xl uppercase font-semibold my-4;
+  @apply font-bai-jamjuree text-xl lg:text-2xl uppercase font-semibold my-4;
 }
 
 .hdg-6 {
-  @apply font-bai-jamjuree text-xl font-semibold my-4;
+  @apply font-bai-jamjuree text-lg lg:text-xl font-semibold my-4;
 }
 
 
