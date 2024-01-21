@@ -12,7 +12,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        /* display: none; */
+        display: block;
 
         &:first-child {
             animation: textglitch 500ms infinite;
@@ -26,12 +26,6 @@
             clip-path: polygon( 0 80%, 100% 20%, 100% 100%, 0 100% );
             transform: translate( 0.125em, 0.025em );
             opacity: 0.8;
-        }
-    }
-
-    &:hover {
-        span {
-            display: block;
         }
     }
 }
@@ -72,6 +66,9 @@
         -0.025em -0.05em 0 rgba(0, 0, 255, 0.75);
     }
 }
+
+
+.image-glitch {}
 
 
 

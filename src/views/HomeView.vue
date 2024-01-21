@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/no-parsing-error -->
 <template>
   <div class="home">
     <div class="container p-20">
@@ -25,9 +26,18 @@
                 pageContent.acf.hero_banner_subheading &&
                 pageContent.acf.hero_banner_subheading.text
               "
+              :class="{ 'text-glitch': isMouseOver }"
+              @mouseenter="handleMouseEnter"
+              @mouseleave="handleMouseLeave"
               class="hdg-1"
             >
+              <span class="hidden" aria-hidden="true">
+                {{ subheadingText }}
+              </span>
               {{ subheadingText }}
+              <span class="hidden" aria-hidden="true">
+                {{ subheadingText }}
+              </span>
             </component>
           </div>
         </div>
@@ -53,6 +63,7 @@ export default {
     return {
       pageContent: {},
       imageUrl: "",
+      isMouseOver: false,
     };
   },
   computed: {
@@ -70,8 +81,11 @@ export default {
     },
   },
   methods: {
-    function() {
-      console.log(this.imageUrl);
+    handleMouseEnter() {
+      this.isMouseOver = true;
+    },
+    handleMouseLeave() {
+      this.isMouseOver = false;
     },
   },
   mounted() {
