@@ -5,7 +5,7 @@
         <div
           class="col w-full lg:w-1/2 flex flex-col justify-center mb-10 lg:mb-0"
         >
-          <div class="text-wrapper">
+          <div class="hero-banner__text-wrapper">
             <component
               :is="headingTag"
               v-if="
@@ -32,8 +32,10 @@
           </div>
         </div>
         <div class="col w-full lg:w-1/2 flex flex-col justify-center">
-          <div class="relative">
-            <img :src="imageUrl" />
+          <div class="hero-banner__image-wrapper w-4/5">
+            <div class="hero-banner__image">
+              <img :src="imageUrl" />
+            </div>
           </div>
         </div>
       </div>
@@ -97,4 +99,29 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.hero-banner__image-wrapper {
+  position: relative;
+
+  &::before {
+    content: "";
+    display: block;
+    padding-top: 115%;
+  }
+
+  .hero-banner__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: no-repeat;
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}
+</style>
