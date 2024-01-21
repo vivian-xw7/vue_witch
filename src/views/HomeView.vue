@@ -34,6 +34,9 @@
               <span class="hidden" aria-hidden="true">
                 {{ subheadingText }}
               </span>
+              <span class="hidden" aria-hidden="true">
+                {{ subheadingText }}
+              </span>
               {{ subheadingText }}
               <span class="hidden" aria-hidden="true">
                 {{ subheadingText }}

@@ -17,14 +17,21 @@
         &:first-child {
             animation: textglitch 500ms infinite;
             clip-path: polygon( 0 0, 100% 0, 100% 45%, 0 45% );
-            transform: translate( -0.05em, -0.125em );
+            transform: translate( -0.05em, -0.075em );
+            opacity: 0.8;
+        }
+
+        &:nth-child(2) {
+            animation: textglitch 500ms infinite;
+            clip-path: polygon(0 47%, 100% 47%, 100% 50%, 0 50%);
+            transform: translate( -0.075em, 0em );
             opacity: 0.8;
         }
 
         &:last-child {
             animation: textglitch 375ms infinite;
-            clip-path: polygon( 0 80%, 100% 20%, 100% 100%, 0 100% );
-            transform: translate( 0.125em, 0.025em );
+            clip-path: polygon( 0 60%, 100% 60%, 100% 100%, 0 100% );
+            transform: translate( 0.075em, 0.025em );
             opacity: 0.8;
         }
     }
