@@ -48,6 +48,7 @@ export default {
   data() {
     return {
       pageContent: {},
+      imageUrl: "",
     };
   },
   computed: {
@@ -63,9 +64,6 @@ export default {
     subheadingText() {
       return this.pageContent.acf?.hero_banner_subheading?.text || "";
     },
-    imageUrl() {
-      return this.pageContent.acf?.hero_banner_image || "";
-    },
   },
   methods: {
     function() {
@@ -78,6 +76,19 @@ export default {
       .get("http://code-witch.local/wp-json/wp/v2/pages/11")
       .then((response) => {
         this.pageContent = response.data;
+
+        const imageId = this.pageContent.acf?.hero_banner_image || "";
+
+        if (imageId) {
+          axios
+            .get(`http://code-witch.local/wp-json/wp/v2/media/${imageId}`)
+            .then((imageResponse) => {
+              this.imageUrl = imageResponse.data?.source_url || "";
+            })
+            .catch((imageError) => {
+              console.error("Error fetching image:", imageError);
+            });
+        }
       })
       .catch((error) => {
         console.error("Error fetching data:", error);
