@@ -1,6 +1,6 @@
 <template>
-  <nav class="navbar pt-10">
-    <div class="container top-bar">
+  <nav class="navbar container pt-10">
+    <div class="top-bar px-6">
       <div
         class="relative z-10 flex justify-center items-center h-full gap-x-12"
       >

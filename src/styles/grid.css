@@ -1,0 +1,9 @@
+
+
+.container {
+	@apply px-12	
+}
+
+.row {
+	@apply flex flex-wrap;
+}

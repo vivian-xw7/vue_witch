@@ -180,11 +180,11 @@
 }
 
 .hdg-1 {
-  @apply font-poppins text-5xl lg:text-7xl font-semibold my-0 leading-tight;
+  @apply font-poppins text-5xl lg:text-7xl font-semibold my-0 leading-tight uppercase;
 }
 
 .hdg-2 {
-  @apply font-poppins text-4xl lg:text-5xl font-semibold my-0;
+  @apply font-poppins text-4xl lg:text-5xl font-semibold my-0 uppercase;
 }
 
 .hdg-3 {

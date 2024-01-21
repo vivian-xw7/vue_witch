@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.row {
-	@apply flex flex-wrap;
-}
 
 #app {
 	/* @apply bg-witch-space text-white; */
@@ -27,9 +24,9 @@
 		background-color: #6D9886;
 	} */
 
+	background: radial-gradient(at 75% bottom, #150050, #000);
 
 	/* background: radial-gradient(at 75% bottom, #06283D, #000); */
-	background: radial-gradient(at 75% bottom, #150050, #000);
 	/* background: radial-gradient(at 75% bottom, #060047, #000); */
 	/* background: radial-gradient(at 75% bottom, #030637, #000); */
 	/* background: radial-gradient(at 200% bottom, theme(colors.violet.600), #000); */

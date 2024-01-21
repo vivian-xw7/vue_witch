@@ -3,7 +3,7 @@
     <div class="container p-20">
       <div class="row">
         <div
-          class="col w-full lg:w-1/2 flex flex-col justify-center mb-10 lg:mb-0"
+          class="col w-full lg:w-1/2 flex flex-col justify-center mb-12 lg:mb-0 text-center lg:text-left"
         >
           <div class="hero-banner__text-wrapper">
             <component
@@ -13,26 +13,30 @@
                 pageContent.acf.hero_banner_heading &&
                 pageContent.acf.hero_banner_heading.text
               "
-              class="hdg-5 mb-8"
+              class="hdg-5 mb-4"
             >
               {{ headingText }}
             </component>
 
-            <componant
+            <component
               :is="subheadingTag"
               v-if="
                 pageContent.acf &&
                 pageContent.acf.hero_banner_subheading &&
                 pageContent.acf.hero_banner_subheading.text
               "
-              class="hdg-1"
+              class="hdg-1 text-glitch"
             >
+              <span aria-hidden="true">{{ subheadingText }}</span>
               {{ subheadingText }}
-            </componant>
+              <span aria-hidden="true">{{ subheadingText }}</span>
+            </component>
           </div>
         </div>
-        <div class="col w-full lg:w-1/2 flex flex-col justify-center">
-          <div class="hero-banner__image-wrapper w-4/5">
+        <div
+          class="col w-full lg:w-1/2 flex flex-col justify-center items-center"
+        >
+          <div class="hero-banner__image-wrapper w-full md:w-4/5">
             <div class="hero-banner__image">
               <img :src="imageUrl" />
             </div>
