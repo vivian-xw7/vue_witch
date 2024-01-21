@@ -25,11 +25,9 @@
                 pageContent.acf.hero_banner_subheading &&
                 pageContent.acf.hero_banner_subheading.text
               "
-              class="hdg-1 text-glitch"
+              class="hdg-1"
             >
-              <span aria-hidden="true">{{ subheadingText }}</span>
               {{ subheadingText }}
-              <span aria-hidden="true">{{ subheadingText }}</span>
             </component>
           </div>
         </div>
