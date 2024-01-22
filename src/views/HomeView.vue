@@ -26,28 +26,16 @@
                 pageContent.acf.hero_banner_subheading &&
                 pageContent.acf.hero_banner_subheading.text
               "
-              :class="{ 'text-glitch': isMouseOver }"
-              @mouseenter="handleMouseEnter"
-              @mouseleave="handleMouseLeave"
               class="hdg-1"
             >
-              <span class="hidden" aria-hidden="true">
-                {{ subheadingText }}
-              </span>
-              <span class="hidden" aria-hidden="true">
-                {{ subheadingText }}
-              </span>
               {{ subheadingText }}
-              <span class="hidden" aria-hidden="true">
-                {{ subheadingText }}
-              </span>
             </component>
           </div>
         </div>
         <div
           class="col w-full lg:w-1/2 flex flex-col justify-center items-center"
         >
-          <div class="hero-banner__image-wrapper w-full md:w-4/5">
+          <div class="hero-banner__image-wrapper w-full md:w-3/5">
             <div class="hero-banner__image">
               <img :src="imageUrl" />
             </div>
@@ -92,7 +80,6 @@ export default {
     },
   },
   mounted() {
-    // Replace '11' with the ID of your home page or adjust as needed
     axios
       .get("http://code-witch.local/wp-json/wp/v2/pages/11")
       .then((response) => {
