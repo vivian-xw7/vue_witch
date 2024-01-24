@@ -1,7 +1,7 @@
 <!-- eslint-disable vue/no-parsing-error -->
 <template>
   <div class="home">
-    <div class="container p-20">
+    <div class="container px-20 pt-32 pb-20">
       <div class="row">
         <div
           class="col w-full lg:w-1/2 flex flex-col justify-center mb-12 lg:mb-0 text-center lg:text-left"
