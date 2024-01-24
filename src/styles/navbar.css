@@ -1,32 +1,32 @@
 .navbar {
-	position: sticky;
-	z-index: 999;
-	height: 85px;
+  position: sticky;
+  z-index: 999;
+  height: 85px;
 
-	.top-bar {
-		@apply relative rounded-full border border-grey/25 text-green;
-		backdrop-filter: blur(10px);
-		box-shadow: rgba(255, 255, 255, 0.05) 0px 0px 8px 0px inset;
+  .top-bar {
+    @apply relative rounded-full border border-grey/25 text-green;
+    backdrop-filter: blur(10px);
+    box-shadow: rgba(255, 255, 255, 0.05) 0px 0px 8px 0px inset;
 
-		&::after {
-			content: '';
-			@apply absolute w-full h-full top-0 left-0 bg-grey rounded-full;
-			opacity: 0.1;
-		}
-	}
+    &::after {
+      content: "";
+      @apply absolute w-full h-full top-0 left-0 bg-grey rounded-full;
+      opacity: 0.1;
+    }
+  }
 
-	.router-link {
-		transition: 0.4s;
+  .router-link {
+    transition: 0.4s;
 
-		.comment-span {
-			transition: 0.4s;
-		}
+    .comment-span {
+      transition: 0.4s;
+    }
 
-		&:hover {
-			@apply text-white;
-			.comment-span {
-				opacity: 0;
-			}
-		}
-	}
+    &:hover {
+      @apply text-white;
+      .comment-span {
+        opacity: 0;
+      }
+    }
+  }
 }

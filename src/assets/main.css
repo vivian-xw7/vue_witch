@@ -2,43 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
-
 #app {
-	/* @apply bg-witch-space text-white; */
-	min-height: 100vh;
-	/* color: #93B1A6; */
-	/* color: #D6CC99 */
-	/* color: #61B390; */
-	/* color: #fff; */
-	/* color: #A0C1B8; */
-	/* color: #E2DCC8; */
-	/* background-color: #222831; */
-	/* background-color: #232931; */
-	/* background-color: #261C2C; */
-	/* background-color: #393E46; */
+  /* @apply bg-witch-space text-white; */
+  min-height: 100vh;
+  /* color: #93B1A6; */
+  /* color: #D6CC99 */
+  /* color: #61B390; */
+  /* color: #fff; */
+  /* color: #A0C1B8; */
+  /* color: #E2DCC8; */
+  /* background-color: #222831; */
+  /* background-color: #232931; */
+  /* background-color: #261C2C; */
+  /* background-color: #393E46; */
 
-	/* color: #B6EADA; */
-	/* background-color: #03001C; */
+  /* color: #B6EADA; */
+  /* background-color: #03001C; */
 
-	/* .text-wrapper {
+  /* .text-wrapper {
 		background-color: #6D9886;
 	} */
 
-	background: radial-gradient(at 75% bottom, #150050, #000);
+  background: radial-gradient(at 75% bottom, #150050, #000);
 
-	/* background: radial-gradient(at 75% bottom, #06283D, #000); */
-	/* background: radial-gradient(at 75% bottom, #060047, #000); */
-	/* background: radial-gradient(at 75% bottom, #030637, #000); */
-	/* background: radial-gradient(at 200% bottom, theme(colors.violet.600), #000); */
-	/* background: radial-gradient(at 150% bottom, #eea22a, #000); */
-	/* background-color: theme(colors.alt-black); */
-	/* background-color: #000; */
-	/* color: theme(colors.green); */
-	/* color: #A91079; */
-	color: #AEFEFF;
-	/* color: #B6EADA; */
+  /* background: radial-gradient(at 75% bottom, #06283D, #000); */
+  /* background: radial-gradient(at 75% bottom, #060047, #000); */
+  /* background: radial-gradient(at 75% bottom, #030637, #000); */
+  /* background: radial-gradient(at 200% bottom, theme(colors.violet.600), #000); */
+  /* background: radial-gradient(at 150% bottom, #eea22a, #000); */
+  /* background-color: theme(colors.alt-black); */
+  /* background-color: #000; */
+  /* color: theme(colors.green); */
+  /* color: #A91079; */
+  color: #aefeff;
+  /* color: #B6EADA; */
 
-	.container {
-		@apply mx-auto;
-	}
+  .container {
+    @apply mx-auto;
+  }
 }

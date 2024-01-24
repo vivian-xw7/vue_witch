@@ -1,9 +1,7 @@
-
-
 .container {
-	@apply px-12	
+  @apply px-12;
 }
 
 .row {
-	@apply flex flex-wrap;
+  @apply flex flex-wrap;
 }
